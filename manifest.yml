@@ -1,0 +1,16 @@
+modules:
+  macro:
+    - key: code2flowchart
+      function: main
+      title: Code2Flowchart
+      description: A tool for generating flowcharts from code.
+      config:
+        function: config-function-key
+
+  function:
+    - key: main
+      handler: index.run
+    - key: config-function-key
+      handler: index.config
+app:
+  id: ari:cloud:ecosystem::app/70c0111d-6a44-4157-b264-8a745feea33a
